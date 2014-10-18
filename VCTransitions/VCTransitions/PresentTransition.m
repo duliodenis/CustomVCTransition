@@ -18,6 +18,7 @@
     secondViewController.view.alpha = 0.0;
     secondViewController.view.frame = containerView.bounds;
     
+    // Add to the container view
     [containerView addSubview:secondViewController.view];
     
     [UIView animateWithDuration:0.5 animations:^{
