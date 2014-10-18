@@ -20,8 +20,6 @@
 }
 
 - (IBAction)presentNextVC:(id)sender {
-    NSLog(@"About to jump");
-    
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController *secondViewController = [storyboard instantiateViewControllerWithIdentifier:@"SecondViewController"];
 
