@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CC929BD19F2ED77003AB978 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC929BC19F2ED77003AB978 /* SecondViewController.m */; };
 		6CCB6BC519F1973000A63BEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB6BC419F1973000A63BEE /* main.m */; };
 		6CCB6BC819F1973000A63BEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB6BC719F1973000A63BEE /* AppDelegate.m */; };
 		6CCB6BCB19F1973000A63BEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB6BCA19F1973000A63BEE /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6CC929BB19F2ED77003AB978 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6CC929BC19F2ED77003AB978 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		6CCB6BBF19F1973000A63BEE /* VCTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCB6BC319F1973000A63BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CCB6BC419F1973000A63BEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				6CCB6BC719F1973000A63BEE /* AppDelegate.m */,
 				6CCB6BC919F1973000A63BEE /* ViewController.h */,
 				6CCB6BCA19F1973000A63BEE /* ViewController.m */,
+				6CC929BB19F2ED77003AB978 /* SecondViewController.h */,
+				6CC929BC19F2ED77003AB978 /* SecondViewController.m */,
 				6CCB6BE819F19CD000A63BEE /* PresentTransition.h */,
 				6CCB6BE919F19CD000A63BEE /* PresentTransition.m */,
 				6CCB6BCC19F1973000A63BEE /* Main.storyboard */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC929BD19F2ED77003AB978 /* SecondViewController.m in Sources */,
 				6CCB6BCB19F1973000A63BEE /* ViewController.m in Sources */,
 				6CCB6BC819F1973000A63BEE /* AppDelegate.m in Sources */,
 				6CCB6BEA19F19CD000A63BEE /* PresentTransition.m in Sources */,
@@ -418,6 +424,7 @@
 				6CCB6BE419F1973000A63BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CCB6BE519F1973000A63BEE /* Build configuration list for PBXNativeTarget "VCTransitionsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				6CCB6BE719F1973000A63BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
