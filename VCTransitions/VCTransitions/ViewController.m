@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "PresentTransition.h"
+#import "DismissTransition.h"
 
 @interface ViewController () <UIViewControllerTransitioningDelegate>
 
@@ -34,6 +35,10 @@
 
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
     return [[PresentTransition alloc] init];
+}
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+    return [[DismissTransition alloc] init];
 }
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6CC929BD19F2ED77003AB978 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC929BC19F2ED77003AB978 /* SecondViewController.m */; };
+		6CC929C019F30629003AB978 /* DismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC929BF19F30629003AB978 /* DismissTransition.m */; };
 		6CCB6BC519F1973000A63BEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB6BC419F1973000A63BEE /* main.m */; };
 		6CCB6BC819F1973000A63BEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB6BC719F1973000A63BEE /* AppDelegate.m */; };
 		6CCB6BCB19F1973000A63BEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB6BCA19F1973000A63BEE /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* Begin PBXFileReference section */
 		6CC929BB19F2ED77003AB978 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		6CC929BC19F2ED77003AB978 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6CC929BE19F30629003AB978 /* DismissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissTransition.h; sourceTree = "<group>"; };
+		6CC929BF19F30629003AB978 /* DismissTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissTransition.m; sourceTree = "<group>"; };
 		6CCB6BBF19F1973000A63BEE /* VCTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCB6BC319F1973000A63BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CCB6BC419F1973000A63BEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				6CC929BC19F2ED77003AB978 /* SecondViewController.m */,
 				6CCB6BE819F19CD000A63BEE /* PresentTransition.h */,
 				6CCB6BE919F19CD000A63BEE /* PresentTransition.m */,
+				6CC929BE19F30629003AB978 /* DismissTransition.h */,
+				6CC929BF19F30629003AB978 /* DismissTransition.m */,
 				6CCB6BCC19F1973000A63BEE /* Main.storyboard */,
 				6CCB6BCF19F1973000A63BEE /* Images.xcassets */,
 				6CCB6BD119F1973000A63BEE /* LaunchScreen.xib */,
@@ -232,6 +237,7 @@
 				6CC929BD19F2ED77003AB978 /* SecondViewController.m in Sources */,
 				6CCB6BCB19F1973000A63BEE /* ViewController.m in Sources */,
 				6CCB6BC819F1973000A63BEE /* AppDelegate.m in Sources */,
+				6CC929C019F30629003AB978 /* DismissTransition.m in Sources */,
 				6CCB6BEA19F19CD000A63BEE /* PresentTransition.m in Sources */,
 				6CCB6BC519F1973000A63BEE /* main.m in Sources */,
 			);
